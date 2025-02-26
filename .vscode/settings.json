@@ -1,0 +1,15 @@
+{
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.defaultColorDecorators": false,
+    "editor.formatOnType": false,
+    "editor.wordBasedSuggestions": "off",
+    "files.autoSave": "onFocusChange",
+    "gitlens.codeLens.symbolScopes": ["!Module"]
+  },
+  "isort.args": ["--profile", "black"]
+}
